@@ -1,0 +1,31 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+@font-face {
+  font-family: 'iconfont';  /* project id 2299632 */
+  src: url('//at.alicdn.com/t/font_2299632_cfuo9g67ohh.eot');
+  src: url('//at.alicdn.com/t/font_2299632_cfuo9g67ohh.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2299632_cfuo9g67ohh.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2299632_cfuo9g67ohh.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2299632_cfuo9g67ohh.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2299632_cfuo9g67ohh.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:40rpx;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
+
+  .icon-saoma:before{content:'\e749';}
+  .icon-tongzhi:before{content: '\e759';}
+  /* .icon-tongzhi:before{content: '\e759';} */
+  .icon-shezhi:before{content: '\e74c';}
+  .icon-wodedingdan:before{content: '\e655';}

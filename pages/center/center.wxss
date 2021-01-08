@@ -1,0 +1,84 @@
+/* pages/test/test.wxss */
+.contain{
+  padding: 20rpx;
+  background-color: #f4f4f4;
+}
+.center-head{
+  display: flex;
+  flex-flow: column;
+}
+.tool-box{
+  display: flex;
+  flex-flow: row;
+  padding-bottom: 20rpx;
+  color: #666;
+}
+.tool-left{
+  flex: 1;
+}
+.icon-tongzhi{
+  margin-right: 10rpx;
+}
+.info-box{
+  display: flex;
+  flex-flow: row;
+}
+.head-box{
+  width: 150rpx;
+  height: 150rpx;
+}
+.info-box .info-box{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.user-name{
+  font-size: 30rpx;
+  font-weight: 500;
+}
+.login-btn{
+  width: 100rpx !important;
+  font-size: 20rpx;
+
+  padding: 10rpx 20rpx;
+  border-radius: 10rpx;
+  color: #F6390D;
+  border: 1rpx solid #F6390D;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+.other-box{
+  display: flex;
+  flex-flow: row;
+}
+.other-item{
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.order-box{
+  display: flex;
+  flex-flow: row;
+  background-color: #fff;
+  padding: 10rpx;
+  border-radius: 10rpx;
+}
+.tab-item{
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.order-text{
+  font-size: 24rpx;
+  margin-top: 5rpx;
+}
+.service-box{
+  margin: 15rpx;
+  background-color: #fff;
+  min-height: 150rpx;
+}

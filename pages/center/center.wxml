@@ -1,0 +1,60 @@
+<!--pages/test/test.wxml-->
+<view class="contain">
+  <view class="center-head">
+    <view class="tool-box">
+      <view class="tool-left"><text class="iconfont icon-saoma"></text></view>
+      <view class="tool-right">
+        <text class="iconfont icon-tongzhi"></text>
+        <text class="iconfont icon-shezhi"></text>
+      </view>
+    </view>
+    <view class="info-box">
+      <view class="head-box">
+        <open-data type="userAvatarUrl"></open-data>
+        <!-- <image src="../../assets/normalface.png"></image> -->
+      </view>
+      <view class="info-box">
+        <view class="user-name"><open-data type="userNickName"></open-data></view>
+        <!-- <view>等级</view> -->
+        <!-- <button class="login-btn" bindtap="loginIn">登录</button> -->
+        <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+        <view wx:else>请升级微信版本</view>
+        <!-- <button open-type="getUserInfo">登录</button> -->
+      </view>
+    </view>
+    <view class="other-box">
+      <view class="other-item">
+        <view>220</view>
+        <view>收藏内容</view>
+      </view>
+      <view class="other-item">
+        <view>10</view>
+        <view>未使用红包</view>
+      </view>
+      <view class="other-item">
+        <view>number</view>
+        <view>text</view>
+      </view>
+    </view>
+  </view>
+  <view class="order-box">
+    <view class="tab-item">
+      <view><icon class="iconfont icon-wodedingdan"></icon></view>
+      <view class="order-text">全部订单</view>
+    </view>
+    <view class="tab-item">
+      <view>图标</view>
+      <view class="order-text">待付款</view>
+    </view>
+    <view class="tab-item">
+      <view>图标</view>
+      <view class="order-text">待收货</view>
+    </view>
+    <view class="tab-item">
+      <view>图标</view>
+      <view class="order-text">售后</view>
+    </view>
+  </view>
+  <view class="service-box">
+  </view>
+</view>
